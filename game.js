@@ -86,7 +86,7 @@ $(".btn").on("click", function() {
 
 
 
-$(document).on('click',function(e) {
+$(document).on('keydown',function(e) {
     if (hasGameStarted === false) {
         $("h1").html("Level 1")
     }
